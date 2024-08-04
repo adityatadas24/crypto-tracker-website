@@ -1,0 +1,168 @@
+.list-coins{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 1.2rem;
+padding: 1rem;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.list-coins:hover{
+    background-color: var(--darkgrey);
+}
+
+.list-coins td{
+    text-align: left;
+    width: 18%;
+ 
+}
+
+.image-td{
+    /* width: 1rem !important; */
+    margin-right: 1rem 2rem !important;
+    margin-left: 1rem;
+}
+.list-currency{
+    margin-right: 1rem;
+}
+.list-currency h3{
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+    margin-left: 1rem;
+    font-size: 18px;
+  }
+
+.list-para{
+    font-size: 1.03rem;
+  margin: 9px 0px;
+  color: var(--grey);
+  font-weight: 600;
+}
+
+/* .chip-flex{
+    margin-right: 1.5rem;
+} */
+
+.price-arrow-list {
+    /* width: 100px; */
+    /* height: 25px; */
+    border-radius: 25px;
+    font-weight: 500;
+    border: 2px solid var(--green);
+    padding-top: 8px;
+    padding: 5px;
+    color: var(--green);
+  }
+  
+  .price-arrow-list:hover {
+    background-color: var(--green);
+    color: var(--white);
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+.mobile-para{
+    display: none;
+    font-size: 1.03rem;
+    margin: 9px 0px;
+    color: var(--grey);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .mobile-para{
+        display: block;
+    }
+    .list-para{
+        display: none;
+    }
+    .list-currency h3{
+        /* margin-top: 10px; */
+        /* margin-bottom: 20px;
+        margin-left: 1rem; */
+        font-size: 12px;
+    }
+   .img-grid{
+    width: 35px;
+    height: 35px;
+   }
+   .grid-symbol{
+    font-size: 14px;
+   }
+   .grid-name{
+    font-size: 14px;
+   }
+   .chip-list{
+    width: 90px !important;
+  
+   }
+   .chip-price-list{
+    width: 85px !important;
+    font-size: 13px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .mobile-para{
+        display: block;
+        font-size: 11px;
+    }
+    .list-para{
+        display: none;
+    }
+    .list-currency h3{
+        /* margin-top: 10px;
+        margin-bottom: 20px; */
+        /* margin-left: 1.5rem; */
+        font-size: 10px;
+        width: 53px;
+    }
+   .img-grid{
+
+    width: 27px;
+    height: 27px;
+   }
+   .grid-symbol{
+    font-size: 11px;
+   }
+   .grid-name{
+    font-size: 11px;
+   }
+   .chip-list{
+    width: 70px !important;
+  
+   }
+   .chip-price-list{
+    width: 50px !important;
+    font-size: 11px;
+   }
+   .price-arrow-list{
+   display: none !important;
+   }
+   .image-td{
+    /* width: 1rem !important; */
+    margin-right: 0rem 1.5rem !important;
+    margin-left: 0.4rem !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+    .list-currency h3{
+        /* margin-top: 10px;
+        margin-bottom: 20px; */
+        /* margin-left: 1.5rem; */
+        font-size: 13px;
+        width: 70px;
+    }
+    .mobile-para{
+        font-size: 13px;
+    }
+    .image-td{
+        /* width: 1rem !important; */
+        margin-right: 1rem 2rem !important;
+        margin-left: 0.2rem !important;
+      }
+}

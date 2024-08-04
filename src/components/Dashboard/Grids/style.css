@@ -1,0 +1,155 @@
+.grid-container {
+  width: 330px;
+  height: 330px;
+  background-color: var(--darkgrey);
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.green-grid:hover{
+    border: 1.4px solid var(--green);
+    /* transition: all 0.8s; */
+}
+.red-grid:hover{
+    border: 1.4px solid var(--red);
+
+}
+
+.flex-info {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center;
+  padding: 5px;
+  gap: 1.2rem;
+}
+
+.img-grid {
+  width: 60px;
+  height: 60px;
+  /* padding: 10px; */
+  padding-bottom: 10px;
+}
+
+.grid-coins {
+  font-size: 1.2rem !important;
+  text-transform: uppercase;
+}
+.grid-symbol {
+  font-weight: 700;
+}
+.grid-name {
+  font-weight: 300;
+  color: var(--grey);
+  text-transform: capitalize;
+  position: relative;
+  bottom: 13px;
+}
+
+.chip-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1rem;
+  /* padding: 10px; */
+  font-size: 18px;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.chip-price:hover {
+  background-color: var(--green);
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.chip-price {
+  width: 120px;
+  height: 25px;
+  border-radius: 25px;
+  font-weight: 500;
+  border: 2px solid var(--green);
+  padding-top: 7px;
+  color: var(--green);
+  text-align: center !important;
+}
+
+.red-flex {
+  color: var(--red);
+  border: 2px solid var(--red);
+}
+.red-flex:hover {
+  background-color: var(--red) !important;
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.price-arrow {
+  /* width: 100px; */
+  /* height: 25px; */
+  border-radius: 25px;
+  font-weight: 500;
+  border: 2px solid var(--green);
+  padding-top: 8px;
+  padding: 5px;
+  color: var(--green);
+}
+
+.price-arrow:hover {
+  background-color: var(--green);
+  color: var(--white);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.price-red-arrow{
+    color: var(--red);
+  border: 2px solid var(--red);
+}
+
+.price-red-arrow:hover{
+    background-color: var(--red) !important;
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.grid-currency{
+  margin: 1rem 1.3rem;
+}
+
+.grid-currency h3{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.grid-currency p{
+  font-size: 1.03rem;
+  margin: 9px 0px;
+  color: var(--grey);
+  font-weight: 600;
+}
+@media only screen and (max-width: 550px) {
+    
+  
+.flex-info{
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-direction: row;
+}
+.flex-info img{
+  width: 50px !important;
+  height: 50px;
+}
+.flex-info p{
+  font-size: 17px !important;
+}
+
+
+}
