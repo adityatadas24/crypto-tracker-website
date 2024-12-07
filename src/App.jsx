@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import DashboardPage from './pages/DashboardPage'
@@ -8,6 +7,7 @@ import ComparePage from './pages/ComparePage'
 
 
 const App = () => {
+  
   return (
     <div className='app'>
       <BrowserRouter>
@@ -24,4 +24,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

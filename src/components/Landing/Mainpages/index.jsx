@@ -5,6 +5,7 @@ import gradient from "../../../assets/gradient.png";
 import phone from "../../../assets/phone.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+
 const Mainpages = () => {
   return (
     <div className="flex-info">
@@ -51,7 +52,7 @@ const Mainpages = () => {
             </Link>
           </div>
           <div>
-            <Button text={"Share App"} outlined={true} />
+            <Button  text={"Share App"} outlined={true} />
           </div>
         </motion.div>
       </div>

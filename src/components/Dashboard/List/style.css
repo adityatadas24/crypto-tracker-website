@@ -109,7 +109,8 @@ cursor: pointer;
     
     .mobile-para{
         display: block;
-        font-size: 11px;
+        font-size: 11px !important;
+        padding-bottom: 10px !important;
     }
     .list-para{
         display: none;
@@ -117,35 +118,38 @@ cursor: pointer;
     .list-currency h3{
         /* margin-top: 10px;
         margin-bottom: 20px; */
-        /* margin-left: 1.5rem; */
-        font-size: 10px;
-        width: 53px;
+        margin-left: 0.3rem;
+        font-size: 11px !important;
+        width: 60px !important;
     }
    .img-grid{
 
-    width: 27px;
-    height: 27px;
+    width: 24px;
+    height: 24px;
    }
    .grid-symbol{
-    font-size: 11px;
+    font-size: 10px;
    }
    .grid-name{
-    font-size: 11px;
+    font-size: 9px;
    }
    .chip-list{
-    width: 70px !important;
+    width: 50px !important;
   
    }
    .chip-price-list{
-    width: 50px !important;
-    font-size: 11px;
+    width: 48px !important;
+    height: 20px !important;
+    font-size: 10px;
+    margin-left: 0.5rem;
+
    }
    .price-arrow-list{
    display: none !important;
    }
    .image-td{
     /* width: 1rem !important; */
-    margin-right: 0rem 1.5rem !important;
+    margin-right: 0rem 1.3rem !important;
     margin-left: 0.4rem !important;
   }
 }

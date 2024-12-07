@@ -1,7 +1,21 @@
 .coin-flex{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start !important;
     align-items: center;
     gap: 1.8rem;
     margin: 2rem 1.5rem;
 }
+
+@media only screen and (max-width:470px) {
+    h3{
+        font-size: 0.8rem !important;
+    }
+    
+    .coin-flex{
+       
+        flex-direction: column  !important;
+        
+
+    }
+}
+

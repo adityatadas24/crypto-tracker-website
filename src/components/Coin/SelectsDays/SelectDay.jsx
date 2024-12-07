@@ -10,7 +10,7 @@ export default function SelectDays({handleDaysChange, days}) {
 
   return (
     <div className='selects-days'>
-   <p style={{fontSize:'18px'}}>Price change in</p>
+   <p style={{fontSize:'15px'}}>Price change in</p>
         {/* <InputLabel id="demo-simple-select-label">Age</InputLabel> */}
         <Select
         sx={{color:'var(--white) !important',

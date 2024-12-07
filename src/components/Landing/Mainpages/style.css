@@ -48,13 +48,10 @@
     margin: 5rem !important;
 }
 
-/* .iphone{
-    position: absolute;
-    z-index: 100px;
-    width: 380px;
-    right: 0;
+.iphone{
+ text-align: end;
     
-} */
+}
 
 .gradient{
     position: absolute;
@@ -119,13 +116,11 @@
       flex-direction: column;
     }
     .gradient-mobile{
-      position: relative;
-      bottom: 80px;
-      left: 35px;
+    display: none;
     }
     .crypto-2{
       font-size: 3.4rem;
-      /* margin-top: 20px; */
+     
     }
     .crypto-para{
       text-align: justify;
@@ -134,12 +129,7 @@
     .crypto-1{
       font-size: 4rem;
     }
-    .gradient{
-        width: 200px;
-    }
-    .iphone{
-        width: 250px;
-    }
+   
   }
 
   @media only screen and (max-width: 550px){
@@ -147,9 +137,7 @@
       flex-direction: column;
     }
     .gradient-mobile{
-      position: relative;
-      bottom: 80px;
-      left: 35px;
+    display: none;
     }
     .crypto-2{
       font-size: 3.4rem;
@@ -162,10 +150,5 @@
     .crypto-1{
       font-size: 4rem;
     }
-    .gradient{
-        width: 200px;
-    }
-    .iphone{
-        width: 250px;
-    }
+   
   }
